@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fresher Portfolio - Sivatharshini Selvaraj</title>
+
+  <!-- ✅ CSS LINK ADD -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Sivatharshini Selvaraj</h1>
+    <p>Aspiring Cloud & DevOps Engineer • Linux • AWS • Cloud Computing Enthusiast</p>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="navwrap">
+      <a href="#" class="active" onclick="showSection('about', this)">About</a>
+      <a href="#" onclick="showSection('skills', this)">Skills</a>
+      <a href="#" onclick="showSection('projects', this)">Projects</a>
+      <a href="#" onclick="showSection('contact', this)">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ABOUT -->
+  <section id="about" class="page-section active">
+    <h2>About Me</h2>
+    <div class="profile">
+      <div class="profile-info">
+        <p>
+         I am a recent Computer Science graduate with a keen interest in web development,
+         cloud technologies, and DevOps. I enjoy turning ideas into practical solutions,
+         solving problems efficiently, and collaborating with teams to build innovative projects.
+        </p>
+        <div class="meta">🎓 Periyar University • B.Sc Computer Science • 2022–2025</div>
+        <span style="background:#fff5e6;padding:6px 10px;border-radius:8px;
+            color:#b36b00;font-weight:700">Location: Namakkal</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="page-section">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="card">🌐 HTML, CSS, JavaScript (Basics)</div>
+      <div class="card">🐍 Python (Basics)</div>
+      <div class="card">🐧 Linux basic commands</div>
+      <div class="card">☁ AWS Services</div>
+      <div class="card">♾ DevOps tools </div>
+      <div class="card">🔧 Git, GitHub</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="page-section">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Personal Portfolio Website</h3>
+        <p>Created a responsive portfolio website using HTML, CSS, and JavaScript. Showcases projects, skills, and contact details with a clean UI.</p>
+        <a href="https://github.com/yourusername/portfolio" target="_blank" style="color:#16a085;font-weight:700;text-decoration:none">View on GitHub →</a>
+      </div>
+      <div class="card">
+        <h3>Automated CI/CD Pipeline for Web Application </h3>
+        <p>Built a CI/CD pipeline using Jenkins, Docker, and AWS to automate deployment. Integrated GitHub for continuous integration and faster delivery.</p>
+        <a href="https://github.com/yourusername/carbon-footprint" target="_blank" style="color:#16a085;font-weight:700;text-decoration:none">View on GitHub →</a>
+      </div>
+      <div class="card">
+        <h3>Photoshop Web Application Deployment</h3>
+        <p>Developed a responsive web app using HTML and CSS and deployed it using Docker. The application runs in a container and is accessible via browser.</p>
+        <a href="https://github.com/yourusername/library-system" target="_blank" style="color:#16a085;font-weight:700;text-decoration:none">View on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="page-section">
+    <h2>Contact</h2>
+    <div class="card" style="text-align:center">
+      <p>📧 <a href="mailto:sivatharshiniraj1608@example.com" style="color:#16a085;font-weight:700;text-decoration:none">sivatharshiniraj1608@gmail.com</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/sivatharshini-s-055029291/" target="_blank" style="color:#16a085;font-weight:700;text-decoration:none">linkedin.com/in/sivatharshini-s</a></p>
+      <p>💻 <a href="https://github.com/SivatharshiniS" target="_blank" style="color:#16a085;font-weight:700;text-decoration:none">github.com/SivatharshiniS</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © <span id="year">2025</span> Sivatharshini Selvaraj
+  </footer>
+
+  <!-- ✅ JS LINK ADD  -->
+  <script src="script.js"></script>
+</body>
+</html>
